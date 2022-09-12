@@ -6,7 +6,7 @@ const Auth = require("./routers/auth");
 const app = express();
 
 const port = 3000;
-const url = "mongodb+srv://ahtasham:osmosm11@cluster0.xzw1puy.mongodb.net/test";
+const url = "mongodb://localhost:27017/playground";
 
 mongoose
   .connect(url)
